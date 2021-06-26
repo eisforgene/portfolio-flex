@@ -1,4 +1,6 @@
 # portfolio-flex
+Check website here:
+[GitHub](https://eisforgene.github.io/portfolio-flex/)
 
 ## Advanced CSS Challenge: Professional Portfolio
 Grading Requirements
@@ -39,15 +41,13 @@ The assignment was to create a deployed portfolio page in order to showcase my s
 
 There were numerous problems encountered throughout this assignment such as allocating the write CSS to particular containers, understanding and creating parent-child containers and advanced stylings for the page. 
 
-[GitHub](https://eisforgene.github.io/portfolio-flex/)
+
+
 #### References:
 [Markdown Guide](https://guides.github.com/features/mastering-markdown/)
 [Semantic Tags](https://www.w3schools.com/html/html5_semantic_elements.asp#:~:text=A%20semantic%20element%20clearly%20describes,%3E%20%2D%20Clearly%20defines%20its%20content.)
 
 #### Screenshots:
 
-![Screenshot 1]
-
-![Screenshot 2]
-
-![Screenshot 3]
+![Screenshot 1](https://github.com/eisforgene/portfolio-flex/blob/main/screenshots/screenshot-1.JPG)
+![Screenshot 2](https://github.com/eisforgene/portfolio-flex/blob/main/screenshots/screenshot-2.JPG)
