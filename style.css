@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+:root {
+    --primary-color: #0060A2;
+    --secondary-color: #86ddff;
+    --tertiary-color: #3ba0ff;
+}
+
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* hero section */
+.container {
+    position: static;
+    height: 408px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container {
+    position: absolute;
+    background-image: url(./images/yosemite.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 40%;
+    width: 100%;
+    margin-top: 0vh;
+}
+
+.overlay {
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    font-size: 22px;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.first-word {
+    color: var(--secondary-color);
+}
+
+/* nav bar section */
+.nav-bar {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    height: 7vh;
+    text-decoration: none;
+    background-color: rgba(100, 100, 100, 0.35);
+}
+
+.nav-bar-link {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.other-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 50%;
+    text-decoration: none;
+    margin: 1% 3%;
+}
+
+.other-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.my-name {
+    width: 50%;
+    text-decoration: none;
+    margin: 1% 5%;
+}
+
+#name {
+    display: flex;
+    color: var(--secondary-color);
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* about section */
+.about-container {
+    margin: 1%;
+    width: 98%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+    height: auto;
+    width: 33%;
+    font-size: 50px;
+    border-right: 3px solid;
+}
+
+.about-text {
+    display: flex;
+    align-items: flex-end;
+    height: auto;
+    width: 80%;
+    font-size: 1.5rem;
+    margin: 75px;
+}
+
+/* work section */
+.work-container {
+    margin: 1%;
+    width: 98%;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.work-header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2%;
+    height: auto;
+    width: 20%;
+    font-size: 50px;
+    border-right: 3px solid;
+}
+
+.work-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 150px);
+    width: 70%;
+    grid-gap: 10px;
+    height: 630px;
+
+}
+
+.work-item {
+    border: solid 1px red;
+    display: flex;
+}
+
+.work-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 77%;
+}
+
+.large-item {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-image: url(./images/digital-marketing-meeting.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.large-item h2 {
+    color: #fff;
+    -webkit-text-stroke: 1px black;
+}
+
+.horiseon-refactor {
+    width: 793px;
+    height: 306px;
+    position: absolute;
+    margin: 1px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.led-wall {
+    width: 100%;
+    height: auto;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+
+.calculator {
+    width: 100%;
+    height: auto;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+
+.pastel-puzzels {
+    width: 100%;
+    height: auto;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+
+.run-buddy {
+    width: 100%;
+    height: auto;
+    background: white;
+    position: relative;
+    border-radius: 10px;
+    margin: 5px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+
+.text-container {
+    display: flex;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 143px;
+    width: 340px;
+    z-index: 2;
+    /* background-color: white; */
+}
+
+.content {
+    padding: 5px 0;
+    color: var(--tertiary-color);
+}
+
+.button {
+    border: 2px solid var(--primary-color);
+    width: 133px;
+    padding: 15px;
+} 
+
+/* reach section */
+.reach-container {
+    margin: 1%;
+    width: 98%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reach-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.reach-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 2%;
+    height: auto;
+    width: 27%;
+    font-size: 50px;
+    border-right: 3px solid;
+}
+
+.reach-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 1% 3%;
+    width: 67%; /* new stuff starts here */
+    display: flex;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.reach-text a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reach-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 50%;
+    text-decoration: none;
+    margin: 1% 3%;
+    width: 100%; /* new stuff starts here */
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.reach-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.my-name {
+    width: 50%;
+    text-decoration: none;
+    margin: 1% 5%;
+}
