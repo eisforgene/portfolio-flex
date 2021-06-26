@@ -23,7 +23,7 @@ html {
 /* hero section */
 .container {
     position: static;
-    height: 408px;
+    height: 484px;
     width: 100%;
     overflow: hidden;
 }
@@ -33,14 +33,14 @@ html {
     background-image: url(./images/yosemite.jpg);
     background-position: center;
     background-size: 100%;
-    height: 40%;
+    height: 37%;
     width: 100%;
     margin-top: 0vh;
 }
 
 .overlay {
     position: absolute;
-    height: 40%;
+    height: 37%;
     width: 100%;
     top: 0;
     left: 0;
@@ -184,7 +184,7 @@ html {
 }
 
 .work-item {
-    border: solid 1px red;
+    border: solid 1px black;
     display: flex;
 }
 
@@ -363,3 +363,5 @@ html {
     text-decoration: none;
     margin: 1% 5%;
 }
+
+/* media queries */
